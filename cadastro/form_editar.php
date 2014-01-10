@@ -2,7 +2,7 @@
     <head>
         <title>Cadastro de Pessoas</title>
     </head>
-     <body>
+     <body background="londres_iStock_000005872948Medium.jpg">
         <?php
             require_once("menu.php");
         ?>
@@ -13,7 +13,7 @@
             <br/>
             <label> Digite o novo nome da pessoa:</label>
             <br/>
-            <input type="text" name="nome" />
+            <?php require_once ("campos_pessoa.php"); ?>
             <input type="submit" value="editar" />
             <br/>
             
@@ -32,7 +32,7 @@
         
         foreach($cadastros as $id => $pessoa){
             if($pessoa != null){
-                 echo "[$id] => $pessoa <br/> ";
+                 echo "[$id] => " . $pessoa["nome"] . "<br/> ";
             }
         }
     }
