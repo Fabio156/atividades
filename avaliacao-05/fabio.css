@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-image: url(http://msalx.casa.abril.com.br/2011/10/17/0142/mc1-68-pisoceramico08.jpeg?1380280903);
+    color: #006600;
+}
+
+
+header{
+    height: 50px;
+    background-color: ;
+    border: 3px groove #FFFFFF;
+    
+}
+
+header h1{
+    font-family: Georgia,serif;
+    font-weight:200;
+    font-size: 35px;
+   
+    margin: 0;
+    padding: 5px;
+    
+    text-align: center;    
+}
+
+section{
+    margin: 0 15px 0 15px;
+    font-size: 14px;
+    font-family:  normal;
+    color: #006600;
+    text-align: justify;
+}
+
+section h3{
+    font-weight: 200;
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+    border:1px solid gray;
+    padding:10px;
+    
+}
+
+section h5{
+    font-weight: 800;
+    font-size: 15px;
+    color: #BEBEBE;
+}
+
+p img{
+    float: left;
+    margin-right: 10px;
+    width: 171px;
+    height: 177px;
+}
+
+footer{
+    margin-top: 20px;
+    border: 1px groove black;
+    border-left: none;
+    border-right: none;
+    color: #000000;
+    height: 25px;
+}
+
+footer address{
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    
+    padding: 2px
+}
